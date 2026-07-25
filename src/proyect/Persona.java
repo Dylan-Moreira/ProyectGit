@@ -4,7 +4,7 @@ public class Persona { // Create public class
     private String name; // Atribute private
     private int edad;
     // add other name
-
+    // hola
 
     public void setName(String name){
         this.name = name;
