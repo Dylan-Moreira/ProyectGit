@@ -3,7 +3,7 @@ package proyect; // package of the proyect
 public class Persona { // Create public class
     private String name; // Atribute private
     private int edad;
-    // private String apellido; //This is other option.
+    // add other name
 
 
     public void setName(String name){
