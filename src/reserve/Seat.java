@@ -1,5 +1,5 @@
 package reserve;
 
-public class Seat {
-
+public class Seat {  // Class creation
+    
 }
