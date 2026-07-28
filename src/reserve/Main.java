@@ -74,11 +74,11 @@ while (!opcion.equals("salir")){
                 break;
             default:
                 System.out.println("No ingresaste un departamento de uruguay");
-        // Delete comments and test
+        
             }
 
     }
     
     teclado.close();
-    }
+    } // Delete comments and test
 }
