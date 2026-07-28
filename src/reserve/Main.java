@@ -11,7 +11,7 @@ while (!opcion.equals("salir")){
     System.out.println("¿De que departamento eres? o escribe salir ");
     opcion = teclado.nextLine().toLowerCase().trim(); 
 
-        switch (opcion){
+        switch (opcion){ //sentence switch
             case "montevideo":
                 System.out.println("Montevideano");
                 break;
@@ -80,5 +80,5 @@ while (!opcion.equals("salir")){
     }
     
     teclado.close();
-    } // Delete comments and test
+    } 
 }
