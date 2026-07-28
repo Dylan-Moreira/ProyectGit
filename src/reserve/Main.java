@@ -8,7 +8,7 @@ Scanner teclado = new Scanner(System.in);
 String opcion = " ";
 
 while (!opcion.equals("salir")){  
-    System.out.println("¿De que departamento eres? o escribe salir "); //prueba
+    System.out.println("¿De que departamento eres? o escribe salir ");
     opcion = teclado.nextLine().toLowerCase().trim(); 
 
         switch (opcion){
@@ -19,7 +19,7 @@ while (!opcion.equals("salir")){
                 System.out.println("Canario");
                 break;
             case "artigas":
-                System.out.println("Artiguense"); // Test Comment
+                System.out.println("Artiguense");
                 break;
             case "cerro largo":
                 System.out.println("Cerrolarguense");
@@ -69,12 +69,12 @@ while (!opcion.equals("salir")){
             case "treinta y tres":
                 System.out.println("Olimareño");
                 break;
-            case "salir": // exit to the switch
+            case "salir": 
                 System.out.println("Hasta luego!");
                 break;
             default:
                 System.out.println("No ingresaste un departamento de uruguay");
-        
+        // Delete comments and test
             }
 
     }
