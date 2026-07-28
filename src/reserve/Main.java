@@ -12,7 +12,7 @@ while (!opcion.equals("salir")){
     opcion = teclado.nextLine().toLowerCase().trim(); 
 
         switch (opcion){ //sentence switch
-            case "montevideo":
+            case "montevideo": // case number one
                 System.out.println("Montevideano");
                 break;
             case "canelones":
