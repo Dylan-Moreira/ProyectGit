@@ -69,7 +69,7 @@ while (!opcion.equals("salir")){
             case "treinta y tres":
                 System.out.println("Olimareño");
                 break;
-            case "salir":
+            case "salir": // exit to the switch
                 System.out.println("Hasta luego!");
                 break;
             default:
