@@ -73,7 +73,7 @@ while (!opcion.equals("salir")){
                 System.out.println("Hasta luego!");
                 break;
             default:
-                System.out.println("No eres de uruguay");
+                System.out.println("No ingresaste un departamento de uruguay");
         
             }
 
