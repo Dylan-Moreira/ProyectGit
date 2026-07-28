@@ -7,8 +7,8 @@ public static void main(String[] args){
 Scanner teclado = new Scanner(System.in);
 String opcion = " ";
 
-while (!opcion.equals("salir")){  // The while close when opcion == "salir"
-    System.out.println("¿De que departamento eres? o escribe salir ");
+while (!opcion.equals("salir")){  // The while close when opcion == "salir" //Prueba
+    System.out.println("¿De que departamento eres? o escribe salir "); //prueba
     opcion = teclado.nextLine().toLowerCase().trim(); 
 
         switch (opcion){
