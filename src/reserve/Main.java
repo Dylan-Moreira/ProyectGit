@@ -1,13 +1,13 @@
 package reserve;
 import java.util.Scanner;
 
-public class Main { // Other test
+public class Main { 
 public static void main(String[] args){
 
 Scanner teclado = new Scanner(System.in);
 String opcion = " ";
 
-while (!opcion.equals("salir")){  // The while close when opcion == "salir" //Prueba
+while (!opcion.equals("salir")){  
     System.out.println("¿De que departamento eres? o escribe salir "); //prueba
     opcion = teclado.nextLine().toLowerCase().trim(); 
 
@@ -19,7 +19,7 @@ while (!opcion.equals("salir")){  // The while close when opcion == "salir" //Pr
                 System.out.println("Canario");
                 break;
             case "artigas":
-                System.out.println("Artiguense");
+                System.out.println("Artiguense"); // Test Comment
                 break;
             case "cerro largo":
                 System.out.println("Cerrolarguense");
