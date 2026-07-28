@@ -1,7 +1,7 @@
 package reserve;
 import java.util.Scanner;
 
-public class Main {
+public class Main { // Other test
 public static void main(String[] args){
 
 Scanner teclado = new Scanner(System.in);
