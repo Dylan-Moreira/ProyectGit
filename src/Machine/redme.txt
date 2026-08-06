@@ -1,0 +1,35 @@
+
+Desafío: Cajero Automático
+
+Crea un programa que simule un cajero automático.
+
+Requisitos
+El saldo inicial es de 1000.
+Muestra este menú repetidamente hasta que el usuario elija salir:
+====== CAJERO ======
+1. Consultar saldo
+2. Depositar dinero
+3. Retirar dinero
+4. Salir
+Seleccione una opción:
+Funcionalidad
+Opción 1: Mostrar el saldo actual.
+Opción 2: Pedir un monto y sumarlo al saldo.
+No permitir montos menores o iguales a 0.
+Opción 3: Pedir un monto para retirar.
+No permitir montos menores o iguales a 0.
+
+Si el monto es mayor al saldo, mostrar:
+
+Saldo insuficiente.
+Si alcanza, descontarlo del saldo.
+
+Opción 4: Mostrar:
+
+Gracias por usar el cajero.
+
+y finalizar el programa.
+
+Extra (opcional)
+Lleva un contador de cuántos depósitos y retiros se realizaron.
+Al salir muestra un resumen:
